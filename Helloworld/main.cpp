@@ -1,8 +1,16 @@
 #include <iostream>
 
+void printHello();
+
 int main(int argc, char* argv[])
 {
-    std::cout << "Hello, world!" << std::endl;
+    printHello();
 
     return 0;
+
+}
+
+void printHello()
+{
+    std::cout << "Hello, world!" << std::endl;
 }
